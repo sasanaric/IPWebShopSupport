@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IPWebShopSupport">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>IPWebShopSupport</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="IPWebShopSupport-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="IPWebShopSupport:war exploded" />
+    </root>
+  </artifact>
+</component>

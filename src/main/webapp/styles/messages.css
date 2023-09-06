@@ -1,0 +1,66 @@
+/* Style for the whole body, to make sure everything is centralized */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+/* The rest of the CSS remains the same */
+
+
+/* Styling the table */
+table {
+    border-collapse: collapse;
+    width: 90%; /* Adjust the width as you see fit */
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+/* To let the text column take all available space */
+table td:nth-child(2),
+table th:nth-child(2) {
+    width: 80%;
+}
+table td:nth-child(1){
+    justify-content: center;
+    align-items: center;
+}
+/* Table headers */
+th {
+    background-color: #650097;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* Table rows */
+tr {
+    border-bottom: 1px solid #dddddd;
+    transition: background-color 0.3s ease;
+}
+
+tr:last-of-type {
+    border-bottom: 2px solid #650097;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+td {
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #47006b;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    float: right;
+}
+button :hover{
+    background-color: #650097;
+}

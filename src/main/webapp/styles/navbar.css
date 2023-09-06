@@ -1,0 +1,44 @@
+.right-menu {
+    float: right;
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tabmenu-container {
+    display: flex;
+}
+
+.right-aligned-item {
+    margin-left: auto;
+}
+.right-menu {
+    margin-left: auto;
+}
+.topnav {
+    background-color: #47006b;
+    overflow: hidden;
+    height: 70px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.topnav a {
+    margin: 5px;
+    display: flex;
+    height: 30px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+}
+.topnav a:hover {
+    border-radius: 15%;
+    background: #650097;
+}
+.topnav-right {
+    display: flex;
+    justify-content: flex-end;
+}

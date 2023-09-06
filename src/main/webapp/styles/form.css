@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;  /* Changed from height to min-height */
+    overflow: auto;  /* Add this line */
+}
+
+.register-frame {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px  #1c002b;;
+}
+
+.register-form .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.register-form label,
+.register-form input {
+    width: 100%;
+}
+.register-form button{
+    width: 50%;
+    border-radius: 15px;
+}
+.register-form input{
+    border-radius: 10px;
+    height: 40px;
+    border-color: #650097;
+}
+
+.register-form button {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #650097;;
+    color: white;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color:#4d0077;;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.register-message {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+.avatars {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.avatars button{
+    width: 50px;
+    margin: 10px;
+}
+.avatars img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.login-frame {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px  #1c002b;;
+}
+
+.login-form .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.login-form label,
+.login-form input,
+.login-form button {
+    width: 100%;
+}
+.login-form input{
+    border-radius: 10px;
+    height: 40px;
+    border-color: #650097;
+}
+
+.login-form button {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #650097;;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color:#4d0077;;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.login-message {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
